@@ -20,6 +20,17 @@
   background-color: #e6ff00;
 }
 
+.swiper-container {
+  width: 320px;
+
+  @media screen and (min-width: 496px) {
+    width: 4960px;
+  }
+  @media screen and (min-width: 960px) {
+    width: 960px;
+  }
+}
+
 @layer base {
   @font-face {
     font-family: "Helvetica";

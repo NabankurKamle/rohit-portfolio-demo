@@ -3,7 +3,6 @@ import { HiOutlineDevicePhoneMobile } from "react-icons/hi2";
 import { FaChess } from "react-icons/fa";
 import { ImCamera } from "react-icons/im";
 import { BiNetworkChart } from "react-icons/bi";
-import { MdManageAccounts } from "react-icons/md";
 
 const Services = () => {
   return (
@@ -15,30 +14,29 @@ const Services = () => {
         <div className="h-[4px] w-[110px] bg-[#e6ff00]">{/* underline */}</div>
       </div>
       <div className="text-white py-10">
-        <div className="grid grid-cols-3 gap-y-10">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-y-10">
           <div className="flex items-center justify-start space-x-10 text-lg">
             <CgWebsite size={70} />
-            <p className="w-28">Websites and Platforms</p>
+            <p className="w-30">3d Modeling</p>
           </div>
           <div className="flex items-center justify-start space-x-10 text-lg">
             <HiOutlineDevicePhoneMobile size={70} />
-            <p className="w-28">Mobile Aplications</p>
+            <p className="w-30 ">Texturing</p>
           </div>
           <div className="flex items-center justify-start space-x-10 text-lg">
             <FaChess size={70} />
-            <p className="w-28">Strategy and Branding</p>
+            <p className="w-30">
+              Environment Design <br />
+              &#40;Unreal Engine&#41;
+            </p>
           </div>
           <div className="flex items-center justify-start space-x-10 text-lg">
             <ImCamera size={70} />
-            <p className="w-28">Product Photography</p>
+            <p className="w-30">Lighting</p>
           </div>
           <div className="flex items-center justify-start space-x-10 text-lg">
             <BiNetworkChart size={70} />
-            <p className="w-28">Seo Optimisation</p>
-          </div>
-          <div className="flex items-center justify-start space-x-10 text-lg">
-            <MdManageAccounts size={70} />
-            <p className="w-28">Social Media Management</p>
+            <p className="w-30">Game Design</p>
           </div>
         </div>
       </div>

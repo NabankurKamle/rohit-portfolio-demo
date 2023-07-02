@@ -1,6 +1,6 @@
 const LinearProgress = ({ name, level }) => {
   return (
-    <div className="">
+    <div className="min-w-[250px] sm:w-[450px]">
       <div className="text-sm font-HelveticaBold flex items-center justify-between py-5">
         <span>{name}</span>
         <span>{level}%</span>

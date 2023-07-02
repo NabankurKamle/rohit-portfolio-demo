@@ -4,7 +4,7 @@ import StoryCard from "../common/StoryCard";
 
 const Stories = () => {
   return (
-    <div>
+    <div className="py-10">
       <div>
         <span className="font-HelveticaBold text-2xl text-[#fff]">Stories</span>
         <div className="relative">
@@ -20,7 +20,7 @@ const Stories = () => {
           </div>
         </div>
       </div>
-      <div className="w-full grid grid-cols-3 gap-16 py-10">
+      <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-16 py-10">
         {stories.map((story) => (
           <StoryCard
             key={story.id}

@@ -1,14 +1,22 @@
 const designs = [
   {
-    name: "Photoshop",
+    name: "Blender",
     level: 80,
   },
   {
-    name: "Sketch",
-    level: 50,
+    name: "Unreal Engine",
+    level: 70,
   },
   {
-    name: "Figma",
+    name: "Substance Painter",
+    level: 90,
+  },
+  {
+    name: "Marmoset Toolbag",
+    level: 90,
+  },
+  {
+    name: "Photoshop",
     level: 90,
   },
 ];

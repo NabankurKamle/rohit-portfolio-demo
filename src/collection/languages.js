@@ -1,19 +1,15 @@
 const languages = [
   {
-    name: "English",
-    level: 90,
+    name: "Bengali",
+    level: 100,
   },
   {
     name: "Hindi",
     level: 70,
   },
   {
-    name: "Bengali",
-    level: 100,
-  },
-  {
-    name: "Spanish",
-    level: 30,
+    name: "English",
+    level: 90,
   },
 ];
 

@@ -7,9 +7,9 @@ const StoryCard = ({ imgUrl, title, postBy, postDate }) => {
         <div className="w-full h-[200px]">
           <img className="w-full h-full object-cover" src={imgUrl} alt="" />
         </div>
-        <div className="py-5 px-5">
+        <div className="py-5 sm:px-5">
           <div>
-            <ul className="flex text-[12px] space-x-2 text-[#a2afa2]">
+            <ul className="flex text-[12px] sm:space-x-2 text-[#a2afa2]">
               <li className="hover:text-[#e6ff00] transition-all duration-150">
                 <Link to="#">CLASSIC</Link>
               </li>

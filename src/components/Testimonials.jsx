@@ -18,6 +18,20 @@ const Testimonials = () => {
       </div>
       <div className="text-white py-10">
         <Swiper
+          breakpoints={{
+            320: {
+              width: 320,
+              slidesPerView: 1,
+            },
+            496: {
+              width: 496,
+              slidesPerView: 2,
+            },
+            960: {
+              width: 960,
+              slidesPerView: 3,
+            },
+          }}
           slidesPerView={3}
           spaceBetween={30}
           autoplay={{
@@ -37,11 +51,11 @@ const Testimonials = () => {
                 <div>
                   <MdOutlineFormatQuote
                     size={50}
-                    className=" mt-[-5px] text-[#e6ff00]"
+                    className=" mt-[-5px] text-[#e6ff00] hidden sm:block"
                   />
                 </div>
                 <div>
-                  <p className="text-[#a2afa2] text-[1rem] leading-6">
+                  <p className="text-[#a2afa2] text-[1rem] leading-6 w-[200px] sm:w-[230px] ">
                     {t.message}
                   </p>
                   <div className="my-5 h-[0.1px] bg-[#e5ff0032]" />

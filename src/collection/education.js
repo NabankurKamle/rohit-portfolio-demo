@@ -1,31 +1,21 @@
 const education = [
   {
     id: 1,
-    institute: "Abc Collage ",
-    duration: "2010 - Present",
-    message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vitae quibusdam debitis ipsam obcaecati accusantium repudiandae nesciunt animi, perspiciatis dolore delectus.",
+    institute: "IIFA Lancaster Degree Collage",
+    duration: "2021 - Present",
+    message: "B.Sc in game Designing & Development.",
   },
   {
     id: 2,
-    institute: "Abc Collage of Los Angeles",
-    duration: "2010 - Present",
-    message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vitae quibusdam debitis ipsam obcaecati accusantium repudiandae nesciunt animi, perspiciatis dolore delectus.",
+    institute: "Muktarpur High School",
+    duration: "2020",
+    message: "12th Board Exam.(Marks 89.4%)",
   },
   {
     id: 3,
-    institute: "Abc Collage of Los Angeles",
-    duration: "2010 - Present",
-    message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vitae quibusdam debitis ipsam obcaecati accusantium repudiandae nesciunt animi, perspiciatis dolore delectus.",
-  },
-  {
-    id: 4,
-    institute: "Abc Collage of Los Angeles",
-    duration: "2010 - Present",
-    message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vitae quibusdam debitis ipsam obcaecati accusantium repudiandae nesciunt animi, perspiciatis dolore delectus.",
+    institute: "Mahesh Sri Ramkrishna Ashram Vidyalaya",
+    duration: "2017",
+    message: "10th Board Exam.(Marks 95%)",
   },
 ];
 

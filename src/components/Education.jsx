@@ -8,25 +8,25 @@ const Education = () => {
           🎓 Education
         </span>
         <div
-          style={{ height: `calc(${(education.length - 1) * 270}px)` }}
-          className={` w-[1px] bg-[#e6ff00] absolute top-11`}
+          style={{ height: `calc(${(education.length - 1) * 220}px)` }}
+          className={` w-[1px] bg-[#e6ff00] absolute top-11 hidden sm:block`}
         />
       </div>
-      <div className="flex flex-col -space-y-10 items-start px-10">
+      <div className="flex flex-col space-y-5 sm:-space-y-10 items-center sm:items-start px-2 sm:px-10">
         {education.map((e) => (
           <>
             <div
               className={`${
                 e.id % 2 ? "" : "self-end"
-              } w-[500px] bg-[#f6fad016] text-[#a2afa2] px-10 py-12 rounded-xl relative`}
+              } sm:w-[500px] bg-[#f6fad016] text-[#a2afa2] px-10 py-12 rounded-xl relative`}
               key={e.id}
             >
               <div
                 className={`${
                   e.id % 2 ? "invisible" : ""
-                } inline-block w-[52px] absolute left-[-52px] `}
+                } sm:inline-block w-[52px] absolute left-[-52px] hidden`}
               >
-                <div className="h-4 w-4 rounded-full bg-[#e6ff00]" />
+                <div className="h-4 w-4 rounded-full bg-[#e6ff00] hidden sm:block" />
                 <div className="border-[15px] border-solid border-transparent border-r-[#f6fad016] relative -top-5" />
               </div>
               <span className="text-sm text-[#e6ff00]">{e.duration}</span>
@@ -37,10 +37,10 @@ const Education = () => {
               <div
                 className={`${
                   e.id % 2 ? "" : "invisible"
-                } inline-flex w-[52px] absolute -right-[52px] top-10 justify-between`}
+                } sm:inline-flex w-[52px] absolute -right-[52px] top-10 justify-between hidden`}
               >
                 <div className="border-[15px] border-solid border-transparent border-l-[#f6fad016] " />
-                <div className="h-4 w-4 rounded-full bg-[#e6ff00] relative top-2" />
+                <div className="h-4 w-4 rounded-full bg-[#e6ff00] relative top-2 hidden sm:block" />
               </div>
             </div>
           </>

@@ -26,7 +26,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="py-10">
+      {/* <div className="py-10">
         <div className="mapouter">
           <div className="gmap_canvas">
             <iframe
@@ -41,11 +41,11 @@ const Contact = () => {
             ></iframe>
           </div>
         </div>
-      </div>
-      <div className="w-full flex py-8">
-        <div className="w-[50%] flex flex-col items-start justify-between text-white">
+      </div> */}
+      <div className="w-full flex flex-col sm:flex-row py-8">
+        <div className="sm:w-[50%] flex flex-col items-start justify-between text-white space-y-8 sm:space-y-0">
           <div>
-            <p className="text-[#a2afa2] mb-8">Write me</p>
+            <p className="text-[#a2afa2] mb-3 sm:mb-8">Write me</p>
             <div className="text-xl hover:text-[#e6ff00] transition-all duration-500">
               <Link
                 to="#"
@@ -54,46 +54,55 @@ const Contact = () => {
                   e.preventDefault();
                 }}
               >
-                example@gmail.com
+                rohitpatra123456@gmail.com
               </Link>
             </div>
           </div>
           <div>
-            <p className="text-[#a2afa2] mb-8">My Office</p>
+            <p className="text-[#a2afa2] mb-3 sm:mb-8">My Office</p>
             <div className="text-xl hover:text-[#e6ff00] transition-all duration-500">
-              <p className="w-[400px]">
-                1444 S. Alameda Street Los Angeles, California 90021
+              <p className="w-full sm:w-[400px]">
+                Champadanga, Tarakeswar, Hooghly, West Bengal, India, 712401.
               </p>
             </div>
           </div>
           <div>
-            <p className="text-[#a2afa2] mb-8">Follow us</p>
+            <p className="text-[#a2afa2] mb-3 sm:mb-8">Follow us</p>
             <div className="text-xl">
               <ul className="w-[400px] flex flex-wrap gap-x-6 gap-y-2">
                 <li className="hover:text-[#e6ff00] transition-all duration-500">
-                  <a href="#">Facebook.</a>
+                  <a
+                    rel="noreferrer"
+                    href="https://weirdweeb64.artstation.com/"
+                    target="_blank"
+                  >
+                    Artstation.
+                  </a>
                 </li>
                 <li className="hover:text-[#e6ff00] transition-all duration-500">
-                  <a href="#">Twitter.</a>
+                  <a
+                    rel="noreferrer"
+                    href="https://www.linkedin.com/in/rohit-patra-8b035b203/"
+                    target="_blank"
+                  >
+                    LinkedIn.
+                  </a>
                 </li>
                 <li className="hover:text-[#e6ff00] transition-all duration-500">
-                  <a href="#">Behance.</a>
-                </li>
-                <li className="hover:text-[#e6ff00] transition-all duration-500">
-                  <a href="#">Dribble.</a>
-                </li>
-                <li className="hover:text-[#e6ff00] transition-all duration-500">
-                  <a href="#">Instagram.</a>
-                </li>
-                <li className="hover:text-[#e6ff00] transition-all duration-500">
-                  <a href="#">LinkedIn</a>
+                  <a
+                    rel="noreferrer"
+                    href="https://twitter.com/ItsAMeMari00"
+                    target="_blank"
+                  >
+                    Twitter.
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <div className="w-[50%]">
-          <p className="text-[#a2afa2] mb-8">Or fill this form</p>
+        <div className="sm:w-[50%] py-10 sm:py-0">
+          <p className="text-[#a2afa2] mb-4 sm:mb-8">Or fill this form</p>
           <div className="py-3">
             <input
               className="bg-transparent placeholder:text-white placeholder:text-xl px-2 outline-none text-white text-xl w-full border-b-[1px] border-[#f6fad04a] focus:border-[#fff] transition-all duration-300 pb-3 mb-3"
@@ -119,7 +128,7 @@ const Contact = () => {
             <textarea
               className="bg-transparent placeholder:text-white placeholder:text-xl px-2 outline-none text-white text-xl resize-none w-full h-20 overflow-hidden border-b-[1px] border-[#f6fad04a] focus:border-[#fff] transition-all duration-300 pb-3 mb-3"
               type="text"
-              placeholder="Name"
+              placeholder="Message"
             />
           </div>
           <button className="bg-white px-6 py-2 rounded-full text-sm">
@@ -127,7 +136,7 @@ const Contact = () => {
           </button>
         </div>
       </div>
-      <div className="mt-10 mb-5 h-[0.1px] bg-[#e5ff0032]" />
+      <div className="sm:mt-10 mb-5 h-[0.1px] bg-[#e5ff0032]" />
       <div className="text-white py-10">
         <div className="overflow-hidden relative w-auto">
           <div

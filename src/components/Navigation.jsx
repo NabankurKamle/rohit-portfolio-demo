@@ -13,7 +13,7 @@ const Navigation = () => {
     <div
       className={`${
         nav ? "z-50" : ""
-      } absolute h-full w-full top-0 left-0 py-16 px-32 `}
+      } absolute h-full w-full top-0 left-0 sm:py-16 sm:px-32 `}
     >
       <div
         className={`${

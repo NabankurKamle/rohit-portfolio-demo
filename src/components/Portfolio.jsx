@@ -28,10 +28,10 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div className="py-10">
-        <ul className="flex text-white space-x-12">
+      <div className=" py-5 sm:py-10">
+        <ul className="flex flex-wrap text-white  sm:space-x-12">
           {headings.map((h) => (
-            <li className="cursor-pointer" key={h.id}>
+            <li className="cursor-pointer mr-4 sm:mr-0 mb-4 sm:mb-0" key={h.id}>
               <span
                 onClick={() => handleActivePLink(h.id)}
                 className={`${
@@ -44,7 +44,7 @@ const Portfolio = () => {
           ))}
         </ul>
       </div>
-      <div className="w-full grid grid-cols-3 gap-5 py-5">
+      <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-5  sm:py-5">
         {activePLink === 1
           ? portfolios.map((p) => (
               <PortfolioCard
