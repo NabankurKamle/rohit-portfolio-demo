@@ -36,7 +36,7 @@ const Works = () => {
               <div
                 className={`${
                   w.id % 2 ? "" : "self-end"
-                } sm:w-[500px] bg-[#f6fad016] text-[#a2afa2] px-10 py-12 rounded-xl relative`}
+                } w-full sm:w-[500px] bg-[#f6fad016] text-[#a2afa2] px-10 py-12 rounded-xl relative`}
                 key={w.id}
               >
                 <div
