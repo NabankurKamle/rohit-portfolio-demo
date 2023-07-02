@@ -7,7 +7,7 @@ import { Typewriter } from "react-simple-typewriter";
 const Hero = () => {
   return (
     <div className="w-full">
-      <div className="flex flex-col justify-center items-center sm:space-x-10">
+      <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-10">
         <div className="relative">
           <div
             style={{ WebkitBorderRadius: "15px 157px 15px" }}
