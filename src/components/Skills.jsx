@@ -23,7 +23,7 @@ const Skills = () => {
               LANGUAGE
             </h1>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-3 w-full">
             {languages.map((l) => (
               <CirculerProgress
                 key={l.name}
@@ -35,13 +35,13 @@ const Skills = () => {
           </div>
         </div>
         <div className="mt-14 mb-8 h-[0.1px] bg-[#e5ff0032]" />
-        <div className="flex items-center justify-between flex-col sm:flex-row">
+        <div className="flex items-center justify-between flex-col md:flex-row">
           <div className=" px-10">
-            <h1 className="text-xl tracking-[10px] font-HelveticaBold text-[#f6fad047] sm:[writing-mode:vertical-rl] [writing-mode:horizontal-tb]">
+            <h1 className="text-xl tracking-[10px] font-HelveticaBold text-[#f6fad047] md:[writing-mode:vertical-rl] [writing-mode:horizontal-tb]">
               DESIGN
             </h1>
           </div>
-          <div className="w-full grid grid-cols-1 sm:grid-cols-2 sm:gap-x-20">
+          <div className="w-full grid grid-cols-1 lg:grid-cols-2 md:gap-x-20">
             {designs.map((d) => (
               <LinearProgress key={d.name} name={d.name} level={d.level} />
             ))}

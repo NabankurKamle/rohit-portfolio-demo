@@ -42,10 +42,10 @@ const Contact = () => {
           </div>
         </div>
       </div> */}
-      <div className="w-full flex flex-col sm:flex-row py-8">
-        <div className="sm:w-[50%] flex flex-col items-start justify-between text-white space-y-8 sm:space-y-0">
+      <div className="w-full flex flex-col md:flex-row py-8">
+        <div className="md:w-[45%] flex flex-col items-start justify-between text-white space-y-8 md:space-y-0 ">
           <div>
-            <p className="text-[#a2afa2] mb-3 sm:mb-8">Write me</p>
+            <p className="text-[#a2afa2] mb-3 md:mb-8">Write me</p>
             <div className="text-xl hover:text-[#e6ff00] transition-all duration-500">
               <Link
                 to="#"
@@ -59,15 +59,15 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <p className="text-[#a2afa2] mb-3 sm:mb-8">My Office</p>
+            <p className="text-[#a2afa2] mb-3 md:mb-8">My Office</p>
             <div className="text-xl hover:text-[#e6ff00] transition-all duration-500">
-              <p className="w-full sm:w-[400px]">
+              <p className="w-full lg:w-[380px]">
                 Champadanga, Tarakeswar, Hooghly, West Bengal, India, 712401.
               </p>
             </div>
           </div>
           <div>
-            <p className="text-[#a2afa2] mb-3 sm:mb-8">Follow us</p>
+            <p className="text-[#a2afa2] mb-3 md:mb-8">Follow us</p>
             <div className="text-xl">
               <ul className="w-[400px] flex flex-wrap gap-x-6 gap-y-2">
                 <li className="hover:text-[#e6ff00] transition-all duration-500">
@@ -101,7 +101,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="sm:w-[50%] py-10 sm:py-0">
+        <div className="md:w-[50%] py-10 md:py-0">
           <p className="text-[#a2afa2] mb-4 sm:mb-8">Or fill this form</p>
           <div className="py-3">
             <input
@@ -136,7 +136,7 @@ const Contact = () => {
           </button>
         </div>
       </div>
-      <div className="sm:mt-10 mb-5 h-[0.1px] bg-[#e5ff0032]" />
+      <div className="md:mt-10 mb-5 h-[0.1px] bg-[#e5ff0032]" />
       <div className="text-white py-10">
         <div className="overflow-hidden relative w-auto">
           <div

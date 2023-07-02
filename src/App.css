@@ -9,6 +9,17 @@
   background-attachment: fixed;
   position: fixed; */
 }
+.mainBg::before {
+  content: "";
+  background: url("/public/img/mainBackground.jpg") center center/cover
+    no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: -50;
+  top: 0;
+  left: 0;
+}
 
 .mySwiper .swiper-pagination-bullet {
   height: 10px;

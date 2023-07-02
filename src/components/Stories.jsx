@@ -20,7 +20,7 @@ const Stories = () => {
           </div>
         </div>
       </div>
-      <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-16 py-10">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2  gap-16 py-10">
         {stories.map((story) => (
           <StoryCard
             key={story.id}

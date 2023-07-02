@@ -13,7 +13,7 @@ const Navigation = () => {
     <div
       className={`${
         nav ? "z-50" : ""
-      } absolute h-full w-full top-0 left-0 sm:py-16 sm:px-32 `}
+      } absolute h-full w-full top-0 left-0 sm:py-16 sm:px-6 md:px-32 `}
     >
       <div
         className={`${
@@ -24,7 +24,7 @@ const Navigation = () => {
         <div
           className={`${
             nav ? "rotate-90" : "rotate-0"
-          } h-14 w-14 rounded-full bg-[#e6ff00] sticky top-10 flex items-center justify-center cursor-pointer transition-all duration-300 z-50`}
+          } h-14 w-14 rounded-full bg-[#e6ff00] fixed top-24 md:right-40 flex items-center justify-center cursor-pointer transition-all duration-300 z-50`}
           onClick={handleNav}
         >
           {nav ? <IoClose size={30} /> : <CgMenuRight size={30} />}

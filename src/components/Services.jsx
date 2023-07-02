@@ -14,7 +14,7 @@ const Services = () => {
         <div className="h-[4px] w-[110px] bg-[#e6ff00]">{/* underline */}</div>
       </div>
       <div className="text-white py-10">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-y-10">
+        <div className="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 gap-y-10">
           <div className="flex items-center justify-start space-x-10 text-lg">
             <CgWebsite size={70} />
             <p className="w-30">3d Modeling</p>

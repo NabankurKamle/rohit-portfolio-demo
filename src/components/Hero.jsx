@@ -7,7 +7,7 @@ import { Typewriter } from "react-simple-typewriter";
 const Hero = () => {
   return (
     <div className="w-full">
-      <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-10">
+      <div className="flex flex-col md:flex-row justify-center items-center sm:space-x-10">
         <div className="relative">
           <div
             style={{ WebkitBorderRadius: "15px 157px 15px" }}
@@ -15,7 +15,7 @@ const Hero = () => {
           >
             <img
               className="h-full w-full object-cover"
-              src="/img/profile.jpg"
+              src="/img/profilePic.jpeg"
               alt=""
             />
           </div>
@@ -58,7 +58,7 @@ const Hero = () => {
             </p>
             <h1 className="pt-4 pb-8 text-[2.5rem] sm:text-[3rem] leading-[1.2] text-white">
               I'm Rohit Patra <br />
-              I'm a <br />
+              I'm a{" "}
               <span className="text-[#e6ff00]">
                 <Typewriter
                   words={["developer.", "designer.", "manager."]}
@@ -93,7 +93,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="sm:py-8">
+      <div className="md:py-8">
         <p className="text-[#a2afa2] text-xl leading-9">
           Hey there. It's me Rohit. I am a game designer, environment artist and
           a writer. I always think if I can think of an utopian world I can also
