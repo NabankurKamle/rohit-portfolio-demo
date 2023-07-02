@@ -1,5 +1,4 @@
 import "./App.css";
-import Background from "./components/Background";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
@@ -15,7 +14,6 @@ import Works from "./components/Works";
 function App() {
   return (
     <div className="App flex flex-col justify-center items-center pt-6 sm:pt-16 pb-5 px-4  md:px-32 font-Helvetica relative overflow-hidden w-[100vw] min-h-[100vh] mainBg">
-      {/* <Background /> */}
       <Navigation />
       <div
         style={{ borderRadius: "16px 16px 0 0" }}
