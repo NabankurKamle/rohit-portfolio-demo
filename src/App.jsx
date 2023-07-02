@@ -14,7 +14,7 @@ import Works from "./components/Works";
 
 function App() {
   return (
-    <div className="App flex flex-col justify-center items-center pt-6 sm:pt-16 pb-5 px-4 sm:px-32 min-h-[100vh] font-Helvetica relative bg-red-700">
+    <div className="App flex flex-col justify-center items-center pt-6 sm:pt-16 pb-5 px-4 sm:px-32 font-Helvetica relative bg-red-700 overflow-hidden w-[100vw]">
       {/* <Background /> */}
       <Navigation />
       <div

@@ -18,7 +18,7 @@ const Education = () => {
             <div
               className={`${
                 e.id % 2 ? "" : "self-end"
-              } sm:w-[500px] bg-[#f6fad016] text-[#a2afa2] px-10 py-12 rounded-xl relative`}
+              } sm:w-[500px] bg-[#f6fad016] text-[#a2afa2] px-10 py-12 rounded-xl relative `}
               key={e.id}
             >
               <div
