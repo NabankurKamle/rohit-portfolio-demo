@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="relative">
           <div
             style={{ WebkitBorderRadius: "15px 157px 15px" }}
-            className={`bg-[#e6ff00] w-[240px] h-[400px] sm:w-[270px] sm:h-[450px] overflow-hidden`}
+            className={` w-[240px] h-[400px] sm:w-[270px] sm:h-[450px] overflow-hidden`}
           >
             <img
               className="h-full w-full object-cover"

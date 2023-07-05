@@ -7,6 +7,10 @@ const Education = () => {
         <span className="py-2 px-5 bg-white rounded-full text-lg">
           🎓 Education
         </span>
+        {/* <div
+          style={{ height: `calc(${(education.length - 1) * 220}px)` }}
+          className={` w-[1px] bg-[#e6ff00] absolute top-11 hidden lg:block`}
+        /> */}
       </div>
       <div className="flex flex-col space-y-5 sm:space-y-8 md:-space-y-10 items-center sm:items-start px-2 sm:px-10">
         {education.map((e) => (
@@ -22,6 +26,7 @@ const Education = () => {
                   e.id % 2 ? "invisible" : ""
                 } md:inline-block w-[52px] absolute left-[-52px] hidden`}
               >
+                {/* <div className="h-4 w-4 rounded-full bg-[#e6ff00] hidden lg:block" /> */}
                 <div className="border-[15px] border-solid border-transparent border-r-[#f6fad016] relative -top-5" />
               </div>
               <span className="text-sm text-[#e6ff00]">{e.duration}</span>
@@ -35,6 +40,7 @@ const Education = () => {
                 } md:inline-flex w-[52px] absolute -right-[52px] top-10 justify-between hidden`}
               >
                 <div className="border-[15px] border-solid border-transparent border-l-[#f6fad016] " />
+                {/* <div className="h-4 w-4 rounded-full bg-[#e6ff00] relative top-2 hidden lg:block" /> */}
               </div>
             </div>
           </>
