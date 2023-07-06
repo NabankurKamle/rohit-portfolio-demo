@@ -2,6 +2,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
+      xxl: { min: "1500px" }, //  Large Screen
+      // => @media (max-width: 1280px) { ... }
+
       xl: { min: "1280px" }, //  Large Screen
       // => @media (max-width: 1280px) { ... }
 
@@ -31,6 +34,10 @@ module.exports = {
         scroll: {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: `translateX(${-150 * 14}px)` },
+        },
+        slide: {
+          from: { transform: "translateX(150px)", opacity: 0 },
+          to: { transform: "translateX(0)", opacity: 1 },
         },
       },
     },

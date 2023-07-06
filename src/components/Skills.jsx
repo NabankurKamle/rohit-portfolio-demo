@@ -6,7 +6,7 @@ import LinearProgress from "../common/LinearProgress";
 
 const Skills = () => {
   return (
-    <div className="py-10">
+    <div className="py-10" id="skills">
       <div>
         <span className="font-HelveticaBold text-2xl text-[#fff]">
           My Skills

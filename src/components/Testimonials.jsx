@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 const Testimonials = () => {
   return (
-    <div>
+    <div id="testimonials">
       <div>
         <span className="font-HelveticaBold text-2xl text-[#fff]">
           What The People Saying

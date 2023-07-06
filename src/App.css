@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   width: 100%;
   /* background: url("/public/img/background.webm");

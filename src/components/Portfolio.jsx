@@ -10,7 +10,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div>
+    <div id="portfolio">
       <div>
         <span className="font-HelveticaBold text-2xl text-[#fff]">
           Portfolio

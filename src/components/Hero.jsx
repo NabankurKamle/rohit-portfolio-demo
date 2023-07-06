@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
-    <div className="w-full">
+    <div className="w-full" id="home">
       <div className="flex flex-col md:flex-row justify-center items-center sm:space-x-10">
         <div className="relative">
           <div
@@ -53,8 +53,8 @@ const Hero = () => {
         </div>
         <div className="w-full py-10">
           <div>
-            <p className="text-lg text-white">
-              Hello Everyone <span className="text-2xl">👋</span>
+            <p className="text-lg text-white ">
+              Hello Everyone <span className="text-2xl ">👋</span>
             </p>
             <h1 className="pt-4 pb-8 text-[2.5rem] sm:text-[3rem] leading-[1.2] text-white">
               I'm Rohit Patra <br />

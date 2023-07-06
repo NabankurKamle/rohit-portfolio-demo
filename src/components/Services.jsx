@@ -6,7 +6,7 @@ import { BiNetworkChart } from "react-icons/bi";
 
 const Services = () => {
   return (
-    <div className="py-10">
+    <div className="py-10" id="services">
       <div>
         <span className="font-HelveticaBold text-2xl text-[#fff]">
           What I do

@@ -8,7 +8,7 @@ import {
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contact">
       <div>
         <span className="font-HelveticaBold text-2xl text-[#fff]">
           Get in Touch

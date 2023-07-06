@@ -4,7 +4,7 @@ import StoryCard from "../common/StoryCard";
 
 const Stories = () => {
   return (
-    <div className="py-10">
+    <div className="py-10" id="blog">
       <div>
         <span className="font-HelveticaBold text-2xl text-[#fff]">Stories</span>
         <div className="relative">

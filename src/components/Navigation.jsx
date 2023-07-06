@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { IoClose } from "react-icons/io5";
+import { Link } from "react-scroll";
 
 const Navigation = () => {
   const [nav, setNav] = useState(false);
@@ -18,8 +19,62 @@ const Navigation = () => {
       <div
         className={`${
           nav ? "opacity-100" : "opacity-0"
-        } absolute h-full w-full top-0 left-0 bg-[#0000008d] transition-all duration-300`}
-      ></div>
+        } fixed h-[100vh] w-[100vw] top-0 left-0 bg-[#0000008d] transition-all duration-300`}
+      >
+        <div className="text-white p-48 text-right">
+          <ul className="flex flex-col gap-y-3">
+            <li
+              className={`${
+                nav && "animate-[slide_1s_ease-in] "
+              }  relative transition-all delay-10`}
+            >
+              <Link to="home" className="cursor-pointer">
+                Home
+              </Link>
+            </li>
+            <li className={`${nav && "animate-[slide_1s_ease-in] "}  relative`}>
+              <Link to="services" className="cursor-pointer">
+                Services
+              </Link>
+            </li>
+            <li className={`${nav && "animate-[slide_1s_ease-in] "}  relative`}>
+              <Link to="testimonials" className="cursor-pointer">
+                Testimonials
+              </Link>
+            </li>
+            <li className={`${nav && "animate-[slide_1s_ease-in] "}  relative`}>
+              <Link to="experiences" className="cursor-pointer">
+                Experiences
+              </Link>
+            </li>
+            <li className={`${nav && "animate-[slide_1s_ease-in]"}  relative`}>
+              <Link to="education" className="cursor-pointer">
+                Education
+              </Link>
+            </li>
+            <li className={`${nav && "animate-[slide_1s_ease-in]"}  relative`}>
+              <Link to="skills" className="cursor-pointer">
+                Skills
+              </Link>
+            </li>
+            <li className={`${nav && "animate-[slide_1s_ease-in]"}  relative`}>
+              <Link to="portfolio" className="cursor-pointer">
+                Portfolio
+              </Link>
+            </li>
+            <li className={`${nav && "animate-[slide_1s_ease-in]"}  relative`}>
+              <Link to="blog" className="cursor-pointer">
+                Blog
+              </Link>
+            </li>
+            <li className={`${nav && "animate-[slide_1s_ease-in]"}  relative`}>
+              <Link to="contact" className="cursor-pointer">
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div className="h-full w-full p-12 flex flex-col items-end justify-start">
         <div
           className={`${
