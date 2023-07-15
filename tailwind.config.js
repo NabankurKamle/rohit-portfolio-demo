@@ -36,8 +36,12 @@ module.exports = {
           "100%": { transform: `translateX(${-150 * 14}px)` },
         },
         slide: {
-          from: { transform: "translateX(150px)", opacity: 0 },
-          to: { transform: "translateX(0)", opacity: 1 },
+          from: {
+            transform: "translateX(150px)",
+            opacity: 0,
+            filter: `blur(36px)`,
+          },
+          to: { transform: "translateX(0)", opacity: 1, filter: `blur(0)` },
         },
       },
     },
