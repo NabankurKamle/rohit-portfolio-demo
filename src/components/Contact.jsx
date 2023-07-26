@@ -14,15 +14,15 @@ const Contact = () => {
           Get in Touch
         </span>
         <div className="relative">
-          <div className="my-5 h-[0.1px] bg-[#e5ff0032]" />
+          <div className="my-5 h-[0.1px] bg-[#01e9de32]" />
           <div className="px-3 absolute -top-[15px] left-1">
-            <span className="h-1 w-3 bg-[#e6ff00] mx-[-3px] -rotate-45 inline-block"></span>
-            <span className="h-1 w-3 bg-[#e6ff00] mx-[-3px] rotate-45 inline-block"></span>
-            <span className="h-1 w-3 bg-[#e6ff00] mx-[-3px] -rotate-45 inline-block"></span>
-            <span className="h-1 w-3 bg-[#e6ff00] mx-[-3px] rotate-45 inline-block"></span>
-            <span className="h-1 w-3 bg-[#e6ff00] mx-[-3px] -rotate-45 inline-block"></span>
-            <span className="h-1 w-3 bg-[#e6ff00] mx-[-3px] rotate-45 inline-block"></span>
-            <span className="h-1 w-3 bg-[#e6ff00] mx-[-3px] -rotate-45 inline-block"></span>
+            <span className="h-1 w-3 bg-[#01e9de] mx-[-3px] -rotate-45 inline-block"></span>
+            <span className="h-1 w-3 bg-[#01e9de] mx-[-3px] rotate-45 inline-block"></span>
+            <span className="h-1 w-3 bg-[#01e9de] mx-[-3px] -rotate-45 inline-block"></span>
+            <span className="h-1 w-3 bg-[#01e9de] mx-[-3px] rotate-45 inline-block"></span>
+            <span className="h-1 w-3 bg-[#01e9de] mx-[-3px] -rotate-45 inline-block"></span>
+            <span className="h-1 w-3 bg-[#01e9de] mx-[-3px] rotate-45 inline-block"></span>
+            <span className="h-1 w-3 bg-[#01e9de] mx-[-3px] -rotate-45 inline-block"></span>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ const Contact = () => {
         <div className="md:w-[45%] flex flex-col items-start justify-between text-white space-y-8 md:space-y-0 ">
           <div>
             <p className="text-[#a2afa2] mb-3 md:mb-8">Write me</p>
-            <div className="text-xl hover:text-[#e6ff00] transition-all duration-500">
+            <div className="text-xl hover:text-[#01e9de] transition-all duration-500">
               <Link
                 to="#"
                 onClick={(e) => {
@@ -60,7 +60,7 @@ const Contact = () => {
           </div>
           <div>
             <p className="text-[#a2afa2] mb-3 md:mb-8">My Office</p>
-            <div className="text-xl hover:text-[#e6ff00] transition-all duration-500">
+            <div className="text-xl transition-all duration-500">
               <p className="w-full lg:w-[380px]">
                 Champadanga, Tarakeswar, Hooghly, West Bengal, India, 712401.
               </p>
@@ -70,7 +70,7 @@ const Contact = () => {
             <p className="text-[#a2afa2] mb-3 md:mb-8">Follow us</p>
             <div className="text-xl">
               <ul className="w-[400px] flex flex-wrap gap-x-6 gap-y-2">
-                <li className="hover:text-[#e6ff00] transition-all duration-500">
+                <li className="hover:text-[#01e9de] transition-all duration-500">
                   <a
                     rel="noreferrer"
                     href="https://weirdweeb64.artstation.com/"
@@ -79,7 +79,7 @@ const Contact = () => {
                     Artstation.
                   </a>
                 </li>
-                <li className="hover:text-[#e6ff00] transition-all duration-500">
+                <li className="hover:text-[#01e9de] transition-all duration-500">
                   <a
                     rel="noreferrer"
                     href="https://www.linkedin.com/in/rohit-patra-8b035b203/"
@@ -88,7 +88,7 @@ const Contact = () => {
                     LinkedIn.
                   </a>
                 </li>
-                <li className="hover:text-[#e6ff00] transition-all duration-500">
+                <li className="hover:text-[#01e9de] transition-all duration-500">
                   <a
                     rel="noreferrer"
                     href="https://twitter.com/ItsAMeMari00"

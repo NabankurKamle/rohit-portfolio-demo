@@ -131,7 +131,7 @@ const Navigation = () => {
         <div
           className={`${
             nav ? "rotate-90" : "rotate-0"
-          } h-14 w-14 rounded-full bg-[#e6ff00] fixed top-24 md:right-40 flex items-center justify-center cursor-pointer transition-all duration-300 z-50`}
+          } h-14 w-14 rounded-full bg-[#01e9de] fixed top-24 md:right-40 flex items-center justify-center cursor-pointer transition-all duration-300 z-50`}
           onClick={handleNav}
         >
           {nav ? <IoClose size={30} /> : <CgMenuRight size={30} />}

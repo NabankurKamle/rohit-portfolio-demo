@@ -9,11 +9,11 @@ const Education = () => {
         </span>
         <div
           style={{ height: `calc(${(education.length - 1) * 285}px)` }}
-          className={` w-[1px] bg-[#e6ff00] absolute top-11 hidden xl:block`}
+          className={` w-[1px] bg-[#01e9de] absolute top-11 hidden xl:block`}
         />
         <div className="hidden xl:flex flex-col absolute top-[175px] space-y-[200px]">
           {education.map((item) => (
-            <div key={item.id} className="h-4 w-4 rounded-full bg-[#e6ff00] " />
+            <div key={item.id} className="h-4 w-4 rounded-full bg-[#01e9de] " />
           ))}
         </div>
       </div>
@@ -34,7 +34,7 @@ const Education = () => {
                 {/* <div className="h-4 w-4 rounded-full bg-[#e6ff00] hidden lg:block" /> */}
                 <div className="border-[15px] border-solid border-transparent border-r-[#f6fad016] relative -top-2 " />
               </div>
-              <span className="text-sm text-[#e6ff00]">{e.duration}</span>
+              <span className="text-sm text-[#01e9de]">{e.duration}</span>
               <p className="text-white text-xl font-HelveticaBold mb-5">
                 {e.institute}
               </p>

@@ -11,14 +11,14 @@ const Skills = () => {
         <span className="font-HelveticaBold text-2xl text-[#fff]">
           My Skills
         </span>
-        <div className="h-[4px] w-[105px] bg-[#e6ff00]">{/* underline */}</div>
+        <div className="h-[4px] w-[105px] bg-[#01e9de]">{/* underline */}</div>
       </div>
       <div className="py-10 text-white">
         <div className="flex items-center space-x-5">
           <div className=" px-10">
             <h1
               style={{ writingMode: "vertical-rl" }}
-              className="text-xl tracking-[10px] font-HelveticaBold text-[#f6fad047]"
+              className="text-xl tracking-[10px] font-HelveticaBold text-[#01e9de47]"
             >
               LANGUAGE
             </h1>
@@ -34,10 +34,10 @@ const Skills = () => {
             ))}
           </div>
         </div>
-        <div className="mt-14 mb-8 h-[0.1px] bg-[#e5ff0032]" />
+        <div className="mt-14 mb-8 h-[0.1px] bg-[#01e9de32]" />
         <div className="flex items-center justify-between flex-col md:flex-row">
           <div className=" px-10">
-            <h1 className="text-xl tracking-[10px] font-HelveticaBold text-[#f6fad047] md:[writing-mode:vertical-rl] [writing-mode:horizontal-tb]">
+            <h1 className="text-xl tracking-[10px] font-HelveticaBold text-[#01e9de47] md:[writing-mode:vertical-rl] [writing-mode:horizontal-tb]">
               DESIGN
             </h1>
           </div>

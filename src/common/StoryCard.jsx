@@ -10,22 +10,22 @@ const StoryCard = ({ imgUrl, title, postBy, postDate }) => {
         <div className="py-5 sm:px-5 md:px-0">
           <div>
             <ul className="flex text-[12px] sm:space-x-2 text-[#a2afa2]">
-              <li className="hover:text-[#e6ff00] transition-all duration-150">
+              <li className="hover:text-[#01e9de] transition-all duration-150">
                 <Link to="#">CLASSIC</Link>
               </li>
               <span>/</span>
-              <li className="hover:text-[#e6ff00] transition-all duration-150">
+              <li className="hover:text-[#01e9de] transition-all duration-150">
                 <Link to="#">TEMPLATE</Link>
               </li>
               <span>/</span>
-              <li className="hover:text-[#e6ff00] transition-all duration-150">
+              <li className="hover:text-[#01e9de] transition-all duration-150">
                 <Link to="#">UNCATEGORISED</Link>
               </li>
             </ul>
           </div>
           <h1 className="text-2xl font-HelveticaBold py-3">{title}</h1>
           <div className="flex text-[12px] text-[#a2afa2] space-x-2">
-            <span className="hover:text-[#e6ff00] transition-all duration-150">
+            <span className="hover:text-[#01e9de] transition-all duration-150">
               {postBy}
             </span>
             <span>/</span>

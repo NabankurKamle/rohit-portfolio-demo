@@ -7,7 +7,7 @@ const LinearProgress = ({ name, level }) => {
       </div>
       <div className="w-full h-1 rounded-full bg-[#dfdfdf]">
         <div
-          className={`h-full bg-[#e6ff00] rounded-full`}
+          className={`h-full bg-[#01e9de] rounded-full`}
           style={{ width: `calc(${level}%)` }}
         />
       </div>

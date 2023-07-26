@@ -1,11 +1,10 @@
 import testimonials from "../collection/testimonials";
 import { MdOutlineFormatQuote } from "react-icons/md";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper";
 
 import "swiper/css";
 import "swiper/css/pagination";
+import { sliderSettings } from "../common/sliderSettings";
 
 const Testimonials = () => {
   return (
@@ -14,51 +13,24 @@ const Testimonials = () => {
         <span className="font-HelveticaBold text-2xl text-[#fff]">
           What The People Saying
         </span>
-        <div className="h-[4px] w-[280px] bg-[#e6ff00]">{/* underline */}</div>
+        <div className="h-[4px] w-[280px] bg-[#01e9de]">{/* underline */}</div>
       </div>
       <div className="text-white py-10">
-        <Swiper
-          breakpoints={{
-            320: {
-              width: 320,
-              slidesPerView: 1,
-            },
-            496: {
-              width: 496,
-              slidesPerView: 2,
-            },
-            960: {
-              width: 960,
-              slidesPerView: 3,
-            },
-          }}
-          slidesPerView={3}
-          spaceBetween={30}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper"
-        >
+        <Swiper {...sliderSettings} className="mySwiper">
           {testimonials.map((t) => (
             <SwiperSlide className="pb-16 cursor-grab" key={t.id}>
               <div className="flex space-x-5">
                 <div>
                   <MdOutlineFormatQuote
                     size={50}
-                    className=" mt-[-5px] text-[#e6ff00] hidden sm:block"
+                    className=" mt-[-5px] text-[#01e9de] hidden sm:block"
                   />
                 </div>
                 <div>
                   <p className="text-[#a2afa2] text-[1rem] leading-6 w-[200px] sm:w-[230px] ">
                     {t.message}
                   </p>
-                  <div className="my-5 h-[0.1px] bg-[#e5ff0032]" />
+                  <div className="my-5 h-[0.1px] bg-[#01e9de32]" />
                   <div className="flex items-center justify-start space-x-5">
                     <img
                       className="h-12 w-12 rounded-[50%]"

@@ -1,106 +1,33 @@
-import { Link } from "react-router-dom";
-
-import { MdLocationOn } from "react-icons/md";
-
-import { Typewriter } from "react-simple-typewriter";
+import Dummy from "./Dummy";
 
 const Hero = () => {
   return (
     <div className="w-full" id="home">
-      <div className="flex flex-col md:flex-row justify-center items-center sm:space-x-10">
-        <div className="relative">
-          <div
-            style={{ WebkitBorderRadius: "15px 157px 15px" }}
-            className={` w-[240px] h-[400px] sm:w-[270px] sm:h-[450px] overflow-hidden`}
-          >
+      <div className="items-center justify-center text-white h-[80vh] overflow-hidden hidden md:flex">
+        <div className="flex flex-col justify-center items-center lg:items-end w-full h-full text-[150px]">
+          <div className="relative lg:-right-5">
+            <span className="block uppercase leading-[180px] font-extrabold tracking-[5px] ">
+              Port
+            </span>
+            <span className="block uppercase leading-[120px] font-extrabold -tracking-[3px] [-webkit-text-stroke-color:#01e9de] [-webkit-text-fill-color:transparent] [-webkit-text-stroke-width:0.2px]">
+              Folio
+            </span>
             <img
-              className="h-full w-full object-cover"
-              src="/img/profilePic.jpeg"
+              className=" h-[210px] absolute -top-[158px] -right-16"
+              src="/img/profile.svg"
               alt=""
             />
           </div>
-          <div className="bg-[#ffffff] leading-3 w-[13rem] flex items-center justify-center py-4 rounded-full font-medium absolute bottom-0">
-            <ul className="flex items-center space-x-6 text-lg">
-              <li className="hover:text-[#7d7d7d] transition-all duration-200">
-                <a
-                  rel="noreferrer"
-                  href="https://weirdweeb64.artstation.com/"
-                  target="_blank"
-                >
-                  Arts.
-                </a>
-              </li>
-              <li className="hover:text-[#7d7d7d] transition-all duration-200">
-                <a
-                  rel="noreferrer"
-                  href="https://www.linkedin.com/in/rohit-patra-8b035b203/"
-                  target="_blank"
-                >
-                  Link.
-                </a>
-              </li>
-              <li className="hover:text-[#7d7d7d] transition-all duration-200">
-                <a
-                  rel="noreferrer"
-                  href="https://twitter.com/ItsAMeMari00"
-                  target="_blank"
-                >
-                  Twit.
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
-        <div className="w-full py-10">
-          <div>
-            <p className="text-lg text-white ">
-              Hello Everyone <span className="text-2xl ">👋</span>
-            </p>
-            <h1 className="pt-4 pb-8 text-[2.5rem] sm:text-[3rem] leading-[1.2] text-white">
-              I'm Rohit Patra <br />
-              I'm a{" "}
-              <span className="text-[#e6ff00]">
-                <Typewriter
-                  words={["developer.", "designer.", "manager."]}
-                  loop={Infinity}
-                  typeSpeed={150}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
-                  cursor
-                  cursorBlinking={false}
-                />
-              </span>
-            </h1>
-          </div>
-          <hr className="border-[1px] w-full border-[#e5ff0032]" />
-          <div className="flex items-center justify-start flex-wrap text-lg mt-5 leading-[3rem] text-[#fff]">
-            <div className="flex items-center mr-28 space-x-2 justify-center">
-              <span className="text-[1.65rem] text-[#e6ff00]">&#64;</span>
-              <Link
-                to="#"
-                onClick={(e) => {
-                  window.location.href = "mailto:rohitpatra123456@gmail.com";
-                  e.preventDefault();
-                }}
-              >
-                rohitpatra123456@gmail.com
-              </Link>
-            </div>
-            <div className="flex items-center mr-28 space-x-2 justify-center">
-              <MdLocationOn size={24} className="text-[#e6ff00]" />
-              <span>Kolkata,India</span>
-            </div>
-          </div>
+        <div className="h-full w-full hidden lg:block">
+          <img
+            src="/img/profilePic.jpeg"
+            className="h-full w-full object-cover"
+            alt="Profile"
+          />
         </div>
       </div>
-      <div className="md:py-8">
-        <p className="text-[#a2afa2] text-xl leading-9">
-          Hey there. It's me Rohit. I am a game designer, environment artist and
-          a writer. I always think if I can think of an utopian world I can also
-          make it. And that is when I realized that I should try this. I must
-          learn. I must make this.
-        </p>
-      </div>
+      <Dummy />
     </div>
   );
 };

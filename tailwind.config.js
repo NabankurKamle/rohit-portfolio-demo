@@ -43,6 +43,14 @@ module.exports = {
           },
           to: { transform: "translateX(0)", opacity: 1, filter: `blur(0)` },
         },
+        showcontent: {
+          from: {
+            opacity: 0,
+            transform: "translate(0, 100px)",
+            filter: "blur(33px)",
+          },
+          to: { opacity: 1, transform: "translate(0, 0)", filter: "blur(0)" },
+        },
       },
     },
   },

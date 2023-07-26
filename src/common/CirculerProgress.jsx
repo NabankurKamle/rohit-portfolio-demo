@@ -23,7 +23,7 @@ const CirculerProgress = ({ name, level, circleWidth }) => {
               cy={circleWidth / 2}
               strokeWidth="8px"
               r={radius}
-              className="fill-none stroke-[#e6ff00]"
+              className="fill-none stroke-[#01e9de]"
               style={{
                 strokeDasharray: dashArray,
                 strokeDashoffset: dashOffset,
