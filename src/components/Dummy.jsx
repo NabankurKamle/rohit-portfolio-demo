@@ -55,7 +55,7 @@ const Dummy = () => {
               Hello Everyone <span className="text-2xl ">👋</span>
             </p>
             <h1 className="pt-4 pb-8 text-[2.5rem] sm:text-[3rem] leading-[1.2] text-white">
-              I'm Rohit Patra <br />
+              <span className="block md:hidden">I'm Rohit Patra </span>
               I'm a{" "}
               <span className="text-[#01e9de]">
                 <Typewriter

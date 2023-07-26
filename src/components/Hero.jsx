@@ -7,10 +7,10 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-center lg:items-end w-full h-full text-[150px]">
           <div className="relative lg:-right-5">
             <span className="block uppercase leading-[180px] font-extrabold tracking-[5px] ">
-              Port
+              Rohit
             </span>
-            <span className="block uppercase leading-[120px] font-extrabold -tracking-[3px] [-webkit-text-stroke-color:#01e9de] [-webkit-text-fill-color:transparent] [-webkit-text-stroke-width:0.2px]">
-              Folio
+            <span className="block uppercase leading-[120px] font-extrabold tracking-[5px] [-webkit-text-stroke-color:#01e9de] [-webkit-text-fill-color:transparent] [-webkit-text-stroke-width:1px]">
+              Patra
             </span>
             <img
               className=" h-[210px] absolute -top-[158px] -right-16"
