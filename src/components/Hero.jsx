@@ -9,7 +9,7 @@ const Hero = () => {
             <span className="block relative uppercase leading-[180px] font-extrabold tracking-[5px] ">
               Rohit
               <img
-                className=" h-[201px] absolute -top-[150px] -right-10"
+                className="h-[200px] absolute bottom-[128px] -right-10"
                 src="/img/profile.svg"
                 alt=""
               />
