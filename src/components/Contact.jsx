@@ -131,7 +131,7 @@ const Contact = () => {
               placeholder="Message"
             />
           </div>
-          <button className="bg-white px-6 py-2 rounded-full text-sm">
+          <button className="bg-white hover:bg-[#01e9de] px-6 py-2 rounded-full text-sm transition-all duration-500">
             Send
           </button>
         </div>

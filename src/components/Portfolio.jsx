@@ -111,17 +111,17 @@ const Portfolio = () => {
                 }}
               >
                 <div
-                  className={`absolute top-[50%] left-[20px] lg:left-[100px] w-[300px] text-left text-[#eee] translate-x-0 translate-y-[-50%] ${
+                  className={`absolute top-[50%] left-[20px] lg:left-[100px] w-[200px] md:w-[300px] text-left text-[#eee] translate-x-0 translate-y-[-50%] ${
                     item.id === activeData ? `z-[55555]` : `hidden`
                   }`}
                 >
-                  <div className="text-[50px] font-semibold opacity-0 animate-[showcontent_1s_ease-in-out_1_forwards]">
+                  <div className="text-[30px] md:text-[50px] font-semibold opacity-0 animate-[showcontent_1s_ease-in-out_1_forwards]">
                     {item.name}
                   </div>
                   <div className="text-[13px] my-[20px] opacity-0 animate-[showcontent_1s_ease-in-out_0.3s_1_forwards]">
                     {item.desc}
                   </div>
-                  <button className="px-[20px] py-[10px] opacity-0 animate-[showcontent_1s_ease-in-out_0.6s_1_forwards] bg-[#f5f5f5] text-black hover:bg-[#01e9de]">
+                  <button className="px-[20px] py-[10px] opacity-0 animate-[showcontent_1s_ease-in-out_0.6s_1_forwards] bg-[#f5f5f5] text-black hover:bg-[#01e9de] transition-all duration-500 rounded-full">
                     See more
                   </button>
                 </div>
@@ -137,7 +137,7 @@ const Portfolio = () => {
               <AiOutlineArrowLeft />
             </button>
             <button
-              className="w-[50px] h-[50px] rounded-[50%] border-[1px] border-[#666] transition-all duration-[0.5s] bg-[#f5f5f5] hover:bg-[#01e9de] flex items-center justify-center"
+              className="w-[50px] h-[50px] rounded-[50%] border-[1px] border-[#666] transition-all duration-[0.5s] bg-[#f5f5f5] hover:bg-[#01e9de] flex items-center justify-center "
               id="next"
               onClick={handleClickNextMine}
             >
