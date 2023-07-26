@@ -3,7 +3,7 @@ import Dummy from "./Dummy";
 const Hero = () => {
   return (
     <div className="w-full" id="home">
-      <div className="items-center justify-center text-white h-[60vh] lg:h-[80vh] overflow-hidden hidden md:flex">
+      <div className="items-center justify-center text-white h-[60vh] lg:h-[80vh] overflow-hidden hidden lg:flex">
         <div className="flex flex-col justify-center items-center lg:items-end w-full h-full text-[150px]">
           <div className="relative md:-right-8">
             <span className="block relative uppercase leading-[180px] font-extrabold tracking-[6px] ">
