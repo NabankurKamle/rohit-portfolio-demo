@@ -111,7 +111,7 @@ const Portfolio = () => {
                 }}
               >
                 <div
-                  className={`absolute top-[50%] left-[100px] w-[300px] text-left text-[#eee] translate-x-0 translate-y-[-50%] ${
+                  className={`absolute top-[50%] left-[20px] lg:left-[100px] w-[300px] text-left text-[#eee] translate-x-0 translate-y-[-50%] ${
                     item.id === activeData ? `z-[55555]` : `hidden`
                   }`}
                 >
