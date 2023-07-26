@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="w-full" id="home">
       <div className="items-center justify-center text-white h-[80vh] overflow-hidden hidden md:flex">
         <div className="flex flex-col justify-center items-center lg:items-end w-full h-full text-[150px]">
-          <div className="relative lg:-right-5">
+          <div className="relative md:-right-5">
             <span className="block uppercase leading-[180px] font-extrabold tracking-[5px] ">
               Rohit
             </span>
