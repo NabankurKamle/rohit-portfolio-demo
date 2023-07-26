@@ -8,13 +8,13 @@ module.exports = {
       xl: { min: "1280px" }, //  Large Screen
       // => @media (max-width: 1280px) { ... }
 
-      lg: { min: "992px" }, //  Desktop
+      lg: { min: "1000px" }, //  Desktop
       // => @media (min-width: 992px) { ... }
 
-      md: { min: "796px" }, //  Tablet
+      md: { min: "800px" }, //  Tablet
       // => @media (min-width: 768px) { ... }
 
-      sm: { min: "480px" }, //  Mobile Landscape
+      sm: { min: "500px" }, //  Mobile Landscape
       // => @media (min-width: 480px) { ... }
     },
     extend: {
