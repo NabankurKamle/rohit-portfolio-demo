@@ -59,7 +59,7 @@ const LandingHero = () => {
               I'm a{" "}
               <span className="text-[#01e9de]">
                 <Typewriter
-                  words={["developer.", "designer.", "manager."]}
+                  words={["developer.", "designer.", "student."]}
                   loop={Infinity}
                   typeSpeed={150}
                   deleteSpeed={50}
