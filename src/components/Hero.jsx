@@ -3,7 +3,7 @@ import Dummy from "./Dummy";
 const Hero = () => {
   return (
     <div className="w-full" id="home">
-      <div className="w-full items-center justify-center text-white overflow-hidden hidden md:flex lg:mb-10">
+      <div className="w-full items-center justify-center text-white h-[65vh] lg:h-[80vh] overflow-hidden hidden md:flex lg:mb-10">
         <div className="relative flex flex-col justify-center items-center lg:items-end min-w-[70%] lg:min-w-[40%] h-full text-[130px] lg:text-[150px]">
           <div className="absolute top-0 lg:-right-32 flex flex-col justify-start items-start lg:items-end">
             <img
