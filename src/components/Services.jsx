@@ -11,7 +11,7 @@ const Services = () => {
         <span className="font-HelveticaBold text-2xl text-[#fff]">
           What I do
         </span>
-        <div className="h-[4px] w-[110px] bg-[#00BD95]">{/* underline */}</div>
+        <div className="h-[4px] w-[110px] bg-[#01e9de]">{/* underline */}</div>
       </div>
       <div className="text-white py-10">
         <div className="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 gap-y-10">

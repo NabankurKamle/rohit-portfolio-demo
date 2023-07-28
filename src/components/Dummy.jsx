@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 const Dummy = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-center items-center sm:space-x-10">
+      <div className="flex flex-col lg:flex-row justify-center items-center sm:space-x-10">
         <div className="relative lg:hidden">
           <div
             style={{ WebkitBorderRadius: "15px 157px 15px" }}
@@ -55,7 +55,7 @@ const Dummy = () => {
               Hello Everyone <span className="text-2xl ">👋</span>
             </p>
             <h1 className="pt-4 pb-8 text-[2.5rem] sm:text-[3rem] leading-[1.2] text-white">
-              <span className="block lg:hidden">I'm Rohit Patra </span>
+              <span className="block md:hidden">I'm Rohit Patra </span>
               I'm a{" "}
               <span className="text-[#01e9de]">
                 <Typewriter

@@ -67,7 +67,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div id="portfolio" className="relative">
+    <div id="portfolio" className="relative overflow-hidden">
       <div>
         <span className="font-HelveticaBold text-2xl text-[#fff] ">
           Portfolio
@@ -94,8 +94,8 @@ const Portfolio = () => {
                 key={item.id}
                 className={`${
                   item.id === activeData
-                    ? `w-full h-[600px] z-[1]`
-                    : `w-[180px] h-[260px] top-[60%]  translate-y-[-50%] rounded-[20px] z-[33333] [box-shadow:0_30px_50px_#1f1f1f]`
+                    ? `w-full h-[600px] top-[100%]  translate-y-[-100%] left-[50%]  translate-x-[-50%] z-[1]`
+                    : `w-[180px] h-[260px] top-[70%]  translate-y-[-70%] rounded-[20px] z-[33333] [box-shadow:0_30px_50px_#1f1f1f]`
                 } ${item.id === secondData ? `left-[50%]` : ``} ${
                   item.id === thirdData ? `left-[calc(50%_+_200px)]` : ``
                 } ${item.id === fourthData ? `left-[calc(50%_+_400px)]` : ``} ${
