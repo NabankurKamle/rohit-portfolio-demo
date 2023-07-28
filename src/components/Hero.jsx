@@ -1,10 +1,10 @@
-import Dummy from "./Dummy";
+import LandingHero from "./LandingHero";
 
 const Hero = () => {
   return (
     <div className="w-full" id="home">
-      <div className="w-full items-center justify-center text-white h-[65vh] lg:h-[80vh] overflow-hidden hidden md:flex lg:mb-10">
-        <div className="relative flex flex-col justify-center items-center lg:items-end min-w-[70%] lg:min-w-[40%] h-full text-[130px] lg:text-[150px]">
+      <div className="w-full items-center justify-center text-white h-[80vh] overflow-hidden hidden xl:flex lg:mb-10">
+        <div className="relative flex flex-col justify-center items-center lg:items-end min-w-[40%] h-full text-[150px]">
           <div className="absolute top-0 lg:-right-32 flex flex-col justify-start items-start lg:items-end">
             <img
               className="max-w-[500px] lg:max-w-[600px]"
@@ -16,7 +16,7 @@ const Hero = () => {
             </span>
           </div>
         </div>
-        <div className="h-full max-w-[45%] hidden lg:block">
+        <div className="h-[80vh] max-w-[45%] hidden lg:block">
           <img
             src="/img/profilePic.jpeg"
             className="h-full w-full object-cover"
@@ -24,7 +24,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <Dummy />
+      <LandingHero />
     </div>
   );
 };

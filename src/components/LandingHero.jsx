@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 import { MdLocationOn } from "react-icons/md";
 import { Typewriter } from "react-simple-typewriter";
 
-const Dummy = () => {
+const LandingHero = () => {
   return (
     <>
       <div className="flex flex-col lg:flex-row justify-center items-center sm:space-x-10">
-        <div className="relative lg:hidden">
+        <div className="relative xl:hidden">
           <div
             style={{ WebkitBorderRadius: "15px 157px 15px" }}
             className={` w-[240px] h-[400px] sm:w-[270px] sm:h-[450px] overflow-hidden `}
@@ -55,7 +55,7 @@ const Dummy = () => {
               Hello Everyone <span className="text-2xl ">👋</span>
             </p>
             <h1 className="pt-4 pb-8 text-[2.5rem] sm:text-[3rem] leading-[1.2] text-white">
-              <span className="block md:hidden">I'm Rohit Patra </span>
+              <span className="block xl:hidden">I'm Rohit Patra </span>
               I'm a{" "}
               <span className="text-[#01e9de]">
                 <Typewriter
@@ -103,4 +103,4 @@ const Dummy = () => {
   );
 };
 
-export default Dummy;
+export default LandingHero;
