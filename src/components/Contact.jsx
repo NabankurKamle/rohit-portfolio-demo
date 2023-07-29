@@ -105,28 +105,28 @@ const Contact = () => {
           <p className="text-[#a2afa2] mb-4 sm:mb-8">Or fill this form</p>
           <div className="py-3">
             <input
-              className="bg-transparent placeholder:text-white placeholder:text-xl px-2 outline-none text-white text-xl w-full border-b-[1px] border-[#f6fad04a] focus:border-[#fff] transition-all duration-300 pb-3 mb-3"
+              className="bg-transparent placeholder:text-white placeholder:text-xl px-2 outline-none text-white text-xl w-full border-b-[1px] border-[#01e9de4a] focus:border-[#fff] transition-all duration-300 pb-3 mb-3"
               type="text"
               placeholder="Name"
             />
           </div>
           <div className="py-3">
             <input
-              className="bg-transparent placeholder:text-white placeholder:text-xl px-2 outline-none text-white text-xl w-full border-b-[1px] border-[#f6fad04a] focus:border-[#fff] transition-all duration-300 pb-3 mb-3"
+              className="bg-transparent placeholder:text-white placeholder:text-xl px-2 outline-none text-white text-xl w-full border-b-[1px] border-[#01e9de4a] focus:border-[#fff] transition-all duration-300 pb-3 mb-3"
               type="email"
               placeholder="Email"
             />
           </div>
           <div className="py-3">
             <input
-              className="bg-transparent placeholder:text-white placeholder:text-xl px-2 outline-none text-white text-xl w-full border-b-[1px] border-[#f6fad04a] focus:border-[#fff] transition-all duration-300 pb-3 mb-3"
+              className="bg-transparent placeholder:text-white placeholder:text-xl px-2 outline-none text-white text-xl w-full border-b-[1px] border-[#01e9de4a] focus:border-[#fff] transition-all duration-300 pb-3 mb-3"
               type="text"
               placeholder="Company"
             />
           </div>
           <div className="py-3">
             <textarea
-              className="bg-transparent placeholder:text-white placeholder:text-xl px-2 outline-none text-white text-xl resize-none w-full h-20 overflow-hidden border-b-[1px] border-[#f6fad04a] focus:border-[#fff] transition-all duration-300 pb-3 mb-3"
+              className="bg-transparent placeholder:text-white placeholder:text-xl px-2 outline-none text-white text-xl resize-none w-full h-20 overflow-hidden border-b-[1px] border-[#01e9de4a] focus:border-[#fff] transition-all duration-300 pb-3 mb-3"
               type="text"
               placeholder="Message"
             />
@@ -136,7 +136,7 @@ const Contact = () => {
           </button>
         </div>
       </div>
-      <div className="md:mt-10 mb-5 h-[0.1px] bg-[#e5ff0032]" />
+      <div className="md:mt-10 mb-5 h-[0.1px] bg-[#01e9de32]" />
       <div className="text-white py-10">
         <div className="overflow-hidden relative w-auto">
           <div

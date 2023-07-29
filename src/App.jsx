@@ -18,7 +18,7 @@ function App() {
       <Navigation />
       <div
         style={{ borderRadius: "16px 16px 0 0" }}
-        className="bg-[#0F0F0Fcf] w-full backdrop-blur-[10px] py-6 sm:py-10 px-3 sm:px-5 md:p-12"
+        className="bg-[#0f0f0f90] w-full backdrop-blur-[20px] py-6 sm:py-10 px-3 sm:px-5 md:p-12"
       >
         <Hero />
         <Services />

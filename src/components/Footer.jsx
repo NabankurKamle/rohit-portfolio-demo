@@ -9,7 +9,7 @@ const Footer = () => {
       </div>
       <div>
         <ul className=" flex flex-col sm:flex-row sm:gap-x-4 md:gap-x-6 gap-y-2 text-sm text-white">
-          <li className="hover:text-[#e6ff00] transition-all duration-500">
+          <li className="hover:text-[#01e9de] transition-all duration-500">
             <a
               rel="noreferrer"
               href="https://weirdweeb64.artstation.com/"
@@ -18,7 +18,7 @@ const Footer = () => {
               Artstation
             </a>
           </li>
-          <li className="hover:text-[#e6ff00] transition-all duration-500">
+          <li className="hover:text-[#01e9de] transition-all duration-500">
             <a
               rel="noreferrer"
               href="https://www.linkedin.com/in/rohit-patra-8b035b203/"
@@ -27,7 +27,7 @@ const Footer = () => {
               LinkedIn
             </a>
           </li>
-          <li className="hover:text-[#e6ff00] transition-all duration-500">
+          <li className="hover:text-[#01e9de] transition-all duration-500">
             <a
               rel="noreferrer"
               href="https://twitter.com/ItsAMeMari00"
