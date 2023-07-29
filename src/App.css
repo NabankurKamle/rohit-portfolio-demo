@@ -13,14 +13,14 @@ html {
 
 .App {
   width: 100%;
-  background: url("/public/img/mainBg.png") center center/cover no-repeat;
+  /* background: url("/public/img/mainBg.png") center center/cover no-repeat; */
   background-size: cover;
   background-attachment: fixed;
   /* position: fixed; */
 }
 .mainBg::before {
   content: "";
-  /* background: url("/public/img/mainBg.png") center center/cover no-repeat; */
+  background: url("/public/img/mainBg.png") center center/cover no-repeat;
   /* background-color: #373737; */
   position: fixed;
   width: 100%;

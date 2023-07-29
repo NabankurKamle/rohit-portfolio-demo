@@ -51,6 +51,11 @@ module.exports = {
           },
           to: { opacity: 1, transform: "translate(0, 0)", filter: "blur(0)" },
         },
+        grayscale: {
+          25: ".25",
+          50: ".50",
+          75: ".75",
+        },
       },
     },
   },
