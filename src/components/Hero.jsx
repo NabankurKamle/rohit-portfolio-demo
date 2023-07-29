@@ -16,10 +16,13 @@ const Hero = () => {
             </span>
           </div>
         </div>
-        <div className="h-[80vh] max-w-[50%] hidden lg:block grayscale">
+        <div
+          style={{ WebkitBorderRadius: "0px 120px 0px" }}
+          className="h-[80vh] max-w-[50%] hidden lg:block grayscale overflow-hidden "
+        >
           <img
             src="/img/profilePic.jpeg"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover scale-[1.2] translate-y-[50px] translate-x-[-10px]"
             alt="Profile"
           />
         </div>
