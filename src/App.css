@@ -23,7 +23,7 @@ html {
   background: url("/public/img/mainBg.png") center center/cover no-repeat;
   scale: 1.5;
   translate: 0 150px;
-  filter: blur(3px);
+  filter: blur(2px);
   /* background-color: #373737; */
   position: fixed;
   width: 100%;
